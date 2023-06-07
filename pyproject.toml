@@ -2,5 +2,6 @@
 name = "BLINK"
 version="0.1.0"
 
-[tool.setuptools.packages]
-find = {}
+[tool.setuptools.packages.find]
+where = ["blink"]
+namespaces = false
