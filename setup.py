@@ -25,6 +25,7 @@ setup(
     long_description_content_type="text/markdown",
     setup_requires=["setuptools>=18.0",],
     packages=find_packages(),
+    package_dir={'blink': 'blink'}
     install_requires=[
         "torch>=1.2.0",
         "pysolr>=3.8.1",
